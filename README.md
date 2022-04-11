@@ -1,4 +1,4 @@
-#re-notify
+# re-notify
 
 ------------------------------------------------------------------
 
@@ -6,4 +6,4 @@ A cross platform app for your notes to use on all devices: desktop-app | web | m
 
 -------------------------------------------------------------------
 
-##Still in development
+## Still in development
