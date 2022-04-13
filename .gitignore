@@ -105,4 +105,7 @@ dist
 .tern-port
 
 # VSCode config files
-.vscode
+.vscode/
+
+# Development environment file
+.env
