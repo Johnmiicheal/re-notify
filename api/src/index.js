@@ -2,9 +2,12 @@ const express = require('express');
 const { ApolloServer, gql } = require('apollo-server-express');
 require('dotenv').config();
 const db = require('./db');
+const models = require('./models');
 
 const port = process.env.PORT || 4000;
 const DB_HOST = process.env.DB_HOST;
+
+
 
 
 let notes = [
@@ -32,11 +35,14 @@ type Mutation {
 const resolvers = {
     Query: {
         hello: () => 'Hello World',
-        notes: () => notes,
+        notes: () => async() => {
+            return await models.Note.find();
+        },
         note: (parent, args) => {
             return notes.find(note => note.id === args.id);
         }
     },
+
     Mutation: {
         newNote: (parent, args) => {
             let noteValue = { 
@@ -47,7 +53,8 @@ const resolvers = {
             notes.push(noteValue);
             return noteValue;
         }
-    }
+    },  
+
 };
 
 
