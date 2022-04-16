@@ -38,8 +38,8 @@ const resolvers = {
         notes: () => async() => {
             return await models.Note.find();
         },
-        note: (parent, args) => {
-            return notes.find(note => note.id === args.id);
+        note:async (parent, args) => {
+            return await models.Note.findById(args.id);
         }
     },
 
