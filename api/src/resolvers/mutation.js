@@ -12,6 +12,21 @@ module.exports = {
         } catch (err){
             return false;
         }
-    }
+    },
+    updateNote: async (parent, { content, id }, { models }) => {
+        return await models.Note.findOneAndUpdate(
+            {
+                _id: id,
+            },
+            {
+                $set: {
+                    content
+                }
+            },
+            {
+                new: true
+            }
+        );
+    },
     
 }
