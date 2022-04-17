@@ -6,5 +6,5 @@ const { GraphQLDateTime } = require('graphql-iso-date');
 module.exports = {
     Query,
     Mutation,
-    // DateTime: GraphQLDateTime
+    DateTime: GraphQLDateTime
 };

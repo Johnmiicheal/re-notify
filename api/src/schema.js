@@ -5,6 +5,8 @@ module.exports = gql`
         id: ID!
         content: String!
         author: String!
+        createdAt: DateTime!
+        updatedAt: DateTime!
     }
 
     type Query{
@@ -17,5 +19,7 @@ module.exports = gql`
         updateNote(id: ID!, content: String!): Note!
         deleteNote(id: ID!): Boolean!
     }
+
+    scalar DateTime
     `;
 
