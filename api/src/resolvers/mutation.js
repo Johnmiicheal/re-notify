@@ -30,3 +30,5 @@ module.exports = {
     },
     
 }
+
+const bcrypt = require('bcrypt')
