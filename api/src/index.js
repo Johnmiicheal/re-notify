@@ -26,6 +26,7 @@ const server = new ApolloServer({
         return { models }
     }
 });
+
 server.start().then(res => {
     server.applyMiddleware({ app, path: '/api'});
     app.listen({ port }, () =>
