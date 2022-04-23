@@ -5,4 +5,7 @@ A cross platform app for your notes to use on all devices: desktop-app | web | m
 -------------------------------------------------------------------
 
 ## Still in development
->>>>>>> [log: 0a0ffx2031]
+>>>>>>> [log: 0a0ffx2030]
+
+## Up Next
+* User Accounts and Authentication
