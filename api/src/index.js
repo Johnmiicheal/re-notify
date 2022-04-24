@@ -9,7 +9,7 @@ const models = require('./models');
 const typeDefs = require('./schema');
 
 // Running the server on port specified in .env {or default: 4000}
-const port = process.env.PORT || 4000;
+const port = 4000;
 const DB_HOST = process.env.DB_HOST;
 
 const app = express();
