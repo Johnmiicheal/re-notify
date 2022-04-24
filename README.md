@@ -6,9 +6,9 @@ A cross platform app for your notes to use on all devices: desktop-app | web | m
 
 ## Still in development
 >>>>>>> [log: 0a0ffx2030]
+* User Accounts and Authentication `completed`
 
 ## In Progress
-* User Accounts and Authentication
 * User Actions and Permissions ( CRUD Operations )
 
 ## Up Next
