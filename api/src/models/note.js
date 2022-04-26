@@ -9,7 +9,15 @@ const noteSchema = new mongoose.Schema(
         author: {
             type: String,
             required: true
-        }
+        },
+        favoriteCount:{
+            type: Number,
+            default: 0
+        },
+        favoritedBy: [{
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'User'
+        }]
     },
     {
         // To assign timestamps field with a date type
