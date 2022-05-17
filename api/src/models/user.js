@@ -19,11 +19,11 @@ const UserSchema = new mongoose.Schema(
         avatar: {
             type: String
         },
-        author: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'User',
-            required: true
-        }
+        // author: {
+        //     type: mongoose.Schema.Types.ObjectId,
+        //     ref: 'User',
+        //     required: true
+        // }
     },
     { timestamps: true }
 );
