@@ -1,4 +1,8 @@
-# re-notify
+<p align='center'>
+  <img src="https://github.com/Johnmiicheal/re-notify/blob/main/public/banner-notify.png?raw=true" />
+ </p>
+
+<h2 align='center'> re-notify </h2>
 
 A cross platform app for your notes to use on all devices: desktop-app | web | mobile ... sharing notes with friends, family and colleagues just got easier
 
