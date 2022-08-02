@@ -3,10 +3,6 @@
 A cross platform app for your notes to use on all devices: desktop-app | web | mobile ... sharing notes with friends, family and colleagues just got easier
 
 -------------------------------------------------------------------
-##
-"I could not continue this because I've had a very bad and terrible experience using apollo servers, maybe its just because I don't have the skills or patience to learn it properly but I can't waste time building something that does not matter. I might return back to finish it whenever I feel like but just writing this so I can remember how I felt while building this."
-
-
 
 
 ## Still in development
