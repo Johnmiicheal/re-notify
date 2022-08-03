@@ -2,15 +2,13 @@
   <img src="https://github.com/Johnmiicheal/re-notify/blob/main/public/banner-notify.png?raw=true" />
  </p>
 
-<h2 align='center'> re-notify </h2>
-
-A cross platform app for your notes to use on all devices: desktop-app | web | mobile ... sharing notes with friends, family and colleagues just got easier
-
--------------------------------------------------------------------
+# <p align='center'> re-notify </p>
+re-notify: A cross platform note and text sharing application, available on desktop, web and mobile. Share note, todo lists, plans and activities. 
 
 
+>>>>>>
 ## Still in development
->>>>>>> [log: 0x00404]
+
 * User Accounts and Authentication `completed`
 * User Actions: Liking notes
 
@@ -28,3 +26,5 @@ A cross platform app for your notes to use on all devices: desktop-app | web | m
 * Desktop Applications with Electron 
 * Integrating the web app with Electron
 * Mobile Applications with React Native
+
+```[log: 0x00404]```
