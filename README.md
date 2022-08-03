@@ -2,11 +2,18 @@
   <img src="https://github.com/Johnmiicheal/re-notify/blob/main/public/banner-notify.png?raw=true" />
  </p>
 
-# <p align='center'> re-notify </p>
+# re-notify
 re-notify: A cross platform note and text sharing application, available on desktop, web and mobile. Share note, todo lists, plans and activities. 
 
+<p align='center'>
+  <img src="https://github.com/Johnmiicheal/re-notify/blob/main/public/renoo-view.png" />
+ </p>
+ <br/>
+ <br/>
 
->>>>>>
+# Progress Report
+
+
 ## Still in development
 
 * User Accounts and Authentication `completed`
