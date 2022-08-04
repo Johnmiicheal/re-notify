@@ -33,5 +33,6 @@ re-notify: A cross platform note and text sharing application, available on desk
 * Desktop Applications with Electron 
 * Integrating the web app with Electron
 * Mobile Applications with React Native
+* PDF Reader feature 
 
 ```[log: 0x00404]```
