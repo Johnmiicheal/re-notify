@@ -6,11 +6,12 @@
 
 A cross platform app for your notes to use on all devices: desktop-app | web | mobile ... sharing notes with friends, family and colleagues just got easier
 
--------------------------------------------------------------------
+<p align='center'>
+  <img src="https://github.com/Johnmiicheal/re-notify/blob/main/public/renoo-view.png?raw=true" />
+ </p>
 
 
 ## Still in development
->>>>>>> [log: 0x00404]
 * User Accounts and Authentication `completed`
 * User Actions: Liking notes
 
@@ -28,3 +29,7 @@ A cross platform app for your notes to use on all devices: desktop-app | web | m
 * Desktop Applications with Electron 
 * Integrating the web app with Electron
 * Mobile Applications with React Native
+
+```log: 0x00404```
+``` Merge to master ```
+
